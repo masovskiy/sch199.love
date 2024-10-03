@@ -1,21 +1,21 @@
 body {
  font-family: 'Arial', sans-serif;
  margin: 0;
- background-color: #f0f0f0; /* Светло-серый фон */
- color: #333; /* Темно-серый текст */
+ background-color: #f0f0f0; 
+ color: #333; 
 }
 
 .container {
  max-width: 800px;
  margin: 50px auto;
  padding: 20px;
- background-color: #fff; /* Белый фон для контента */
- box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тень */
+ background-color: #fff; 
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 }
 
 .title {
  font-size: 3em;
- color: #ff8c00; /* Оранжевый цвет */
+ color: #ff8c00; 
  text-align: center;
  margin-bottom: 20px;
 }
@@ -28,7 +28,7 @@ body {
 }
 
 nav {
- background-color: #e0e0e0; /* Серый фон для навигации */
+ background-color: #e0e0e0; 
  padding: 10px;
  border-radius: 5px;
  margin-bottom: 30px;
@@ -50,11 +50,11 @@ nav a {
  text-decoration: none;
  color: #333;
  font-weight: bold;
- transition: color 0.3s ease; /* Плавный переход цвета */
+ transition: color 0.3s ease; 
 }
 
 nav a:hover {
- color: #ff8c00; /* Оранжевый цвет при наведении */
+ color: #ff8c00; 
 }
 
 section {
@@ -63,7 +63,7 @@ section {
 
 section h2 {
  font-size: 1.5em;
- color: #ff8c00; /* Оранжевый цвет */
+ color: #ff8c00; 
  margin-bottom: 10px;
 }
 
