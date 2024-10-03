@@ -1,9 +1,10 @@
 body {
- font-family: 'Arial', sans-serif;
+ font-family: 'Roboto', sans-serif;
  margin: 0;
  background-color: #f8f8f8; 
  color: #333; 
  line-height: 1.6;
+ overflow-x: hidden; 
 }
 
 .container {
@@ -12,21 +13,22 @@ body {
  padding: 20px;
  background-color: #fff; 
  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
- border-radius: 10px;
+ border-radius: 10px; 
+ text-align: center;
 }
 
 .title {
  font-size: 3em;
- color: #ff8c00;
- text-align: center;
+ color: #ff8c00; 
  margin-bottom: 20px;
  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); 
+ letter-spacing: 2px; 
 }
 
 .greeting {
- text-align: center;
  font-size: 1.2em;
  margin-bottom: 30px;
+ line-height: 1.5;
 }
 
 nav {
@@ -34,6 +36,9 @@ nav {
  padding: 10px;
  border-radius: 5px;
  margin-bottom: 30px;
+ display: flex;
+ justify-content: center;
+ gap: 20px;
 }
 
 nav ul {
@@ -53,10 +58,13 @@ nav a {
  color: #333;
  font-weight: bold;
  transition: color 0.3s ease; 
+ padding: 10px 15px;
+ border-radius: 5px; 
 }
 
 nav a:hover {
- color: #ff8c00; 
+ color: #fff; 
+ background-color: #ff8c00; 
 }
 
 section {
@@ -73,6 +81,7 @@ section h2 {
 section p {
  font-size: 1.1em;
  line-height: 1.5;
+ text-align: justify;
 }
 
 .quote {
@@ -82,8 +91,21 @@ section p {
  border-radius: 5px;
  border-left: 5px solid #ff8c00; 
  font-style: italic;
+ position: relative;
 }
 
 .quote p {
  text-align: justify; 
+}
+
+.quote::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: -5px;
+ width: 0;
+ height: 0;
+ border-top: 25px solid transparent;
+ border-bottom: 25px solid transparent;
+ border-right: 25px solid #ff8c00; 
 }
